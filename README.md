@@ -102,4 +102,7 @@ All pages are interconnected using **buttons for smooth navigation**.
 ---
 
 ## 📸 Preview
+IMAGE-1
 
+
+![Image](https://github.com/user-attachments/assets/dc7183df-fd15-4a8f-8ec0-bd1a715bcca8)
