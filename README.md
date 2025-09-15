@@ -1,127 +1,59 @@
+📊 **IPL Analyzer Dashboard
+🔎 Project Overview**
+This project analyzes Indian Premier League (IPL) matches using Power BI. It highlights team performance, player statistics, toss impact, and season-wise trends. The dashboard helps cricket fans, analysts, and franchises explore IPL data interactively and make data-driven insights.
 
-# 🏏 IPL Analysis Project using Power BI
+❓ **Problem Statement**
+The IPL produces massive amounts of data each season. While detailed statistics exist, they are often presented in raw tables, making it hard for fans and analysts to draw meaningful conclusions. An interactive dashboard is needed to simplify analysis and provide actionable insights.
 
-Welcome to the **IPL Analysis Project**, a data visualization and business intelligence report built using **Power BI**. This project explores comprehensive match and player data from the Indian Premier League (IPL) to uncover valuable insights, trends, and performance metrics from 2008 to 2024.
+🎯 **Goal of the Project**
+Deliver an interactive Power BI dashboard for IPL data.
+Enable quick answers to questions like:
+Who are the top run-scorers and wicket-takers?
+How does toss decision affect match outcomes?
+Which teams perform better when batting first vs chasing?
+Provide insights to support fan engagement, team strategies, and sports analysis.
 
----
+🛠️ **Skills & Tools Demonstrated**
+Power BI
+Power Query (Data Cleaning & Transformation)
+DAX (Measures & Calculations)
+Data Modeling (Fact & Dimension Relationships)
+Interactive Dashboards (Charts, KPIs, Filters, Slicers, Maps)
 
-## 📊 Project Overview
+📂 **Data Sources**
+Dataset: Public IPL dataset (Kaggle – Matches & Deliveries data).
+Matches Data: Match ID, season, teams, toss decision, toss winner, result, venue.
+Deliveries Data: Ball-by-ball details including runs, extras, and wickets.
 
-This project aims to collect, clean, and analyze IPL match data to create interactive dashboards that reveal key patterns and statistics. Using Power BI, the project visualizes player performances, team strategies, and match outcomes in an accessible and insightful way, supporting both technical and non-technical decision-making.
+🔧 Data Preparation & Modeling
+Cleaned & transformed raw data using Power Query.
+Removed duplicates, handled null values, and standardized team names.
+Built a data model connecting Matches and Deliveries tables.
+Created DAX measures such as:
+Total Runs & Total Wickets
+Batting Strike Rate & Bowling Economy Rate
+Toss Win % vs Match Win %
 
----
+📊 Analysis & Visualizations
+Key KPIs: Top Run Scorers (Orange Cap), Top Wicket Takers (Purple Cap), Toss Decision Analysis, Team Performance.
+Key Visuals:
+Bar & Column Charts: Player runs, bowler wickets
+Line Charts: Season-wise team & player trends
+Maps: Venue distribution
+Slicers: Season, team, venue
+(Insert dashboard images here)
 
-## ✅ Key Achievements
-
-- **Data Collection & Cleaning**  
-  - IPL match and delivery data sourced from Kaggle  
-  - Cleaned and transformed using **Power Query Editor** in Power BI
-
-- **Data Analysis**  
-  - Statistical and visual analysis of match results, player performances, and team records  
-  - Created multiple **DAX-based measures** for KPIs like strike rate, wickets, and economy
-
-- **Visualizations & Dashboards**  
-  - Designed interactive visuals including **Cards, Bar Charts, Pie Charts, Donut Charts, and Images**  
-  - Slicers and filters for flexible user exploration
-
-- **Data Quality Improvement**  
-  - Identified and fixed inconsistencies in raw data  
-  - Implemented automated cleaning steps in Power Query
-
-- **Effective Presentation**  
-  - Created smooth **page navigation** between report sections: Home → Overview → Batting → Bowling
-
----
-
-## 🛠️ Technologies Used
-
-- **Power BI Desktop** – Data modeling, dashboard development  
-- **Power Query Editor** – Data cleaning and transformation  
-- **DAX (Data Analysis Expressions)** – Measures and custom KPIs
-
----
-
-## 📁 Project Structure
-
-```
-📦 IPL-Analysis-Project
-├── IPL Analyzer Dashboard.pbix         # Power BI report file
-├── matches.csv                         # Match-level IPL dataset
-├── deliveries.csv                      # Ball-by-ball IPL dataset
-```
-
----
-
-## 📥 Getting Started
-
-### 🔧 Prerequisites
-- Power BI Desktop (latest version)
-- IPL dataset (downloaded from Kaggle)
-
-### 🚀 Setup Instructions
-
-1. **Download Dataset**  
-   Get the IPL datasets (`matches.csv` and `deliveries.csv`) from Kaggle
-
-2. **Open Power BI**  
-   Launch Power BI Desktop
-
-3. **Load Data**  
-   Use `Home > Get Data > CSV` to import the datasets
-
-4. **Transform Data**  
-   Go to `Home > Transform Data` and clean the data using Power Query
-
-5. **Create KPIs & Visuals**  
-   Use `Modeling > New Measure` to define:
-   - Batting Strike Rate  
-   - Bowling Economy  
-   - Dot Balls  
-   - Wickets  
-   - Total Runs  
-   - Bowler Strike Rate  
-
-6. **Design Dashboard**  
-   Build visuals using Cards, Bar Charts, Pie Charts, and add slicers for interactivity
-
-7. **Publish Report**  
-   Use `Home > Publish` to upload to the Power BI Service (optional)
-
----
-
-## 🧭 Navigation Flow
-
-- **Home** → Project intro & navigation buttons  
-- **Overview** → Season-wise insights, match outcomes, team win stats  
-- **Batting** → Top batsmen, strike rate, boundaries  
-- **Bowling** → Wickets, dot balls, economy, dismissal types  
-
-All pages are interconnected using **buttons for smooth navigation**.
-
----
-
-## 📸 Preview
-IMAGE-1
-
-
-![Image](https://github.com/user-attachments/assets/dc7183df-fd15-4a8f-8ec0-bd1a715bcca8)
-
-IMAGE-2
-
-
-![Image](https://github.com/user-attachments/assets/274f06f8-2485-4726-b08b-6411cbdf0005)
-
-IMAGE-3
-
-
-![Image](https://github.com/user-attachments/assets/a7c6fb00-0195-46ae-87ca-0ae1fe7d11f2)
-
-IMAGE-4
+💡 Business Impact & Insights
+Teams & Coaches: Understand winning patterns & player performance.
+Analysts: Identify trends across seasons.
+Fans: Explore IPL history interactively.
+Management: Use data-driven insights for future strategies.
+📸 Screenshots / Demo
 
 
 
-
-
-
-![Image](https://github.com/user-attachments/assets/88805454-17e5-4741-a389-1e872873f885)
+🚀 Installation & Usage
+Clone/download the repository.
+Open the .pbix file in Power BI Desktop.
+Refresh data if required.
+Explore the visuals using filters & slicers.
