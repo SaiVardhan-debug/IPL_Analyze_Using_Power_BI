@@ -25,7 +25,7 @@ Dataset: Public IPL dataset (Kaggle – Matches & Deliveries data).
 Matches Data: Match ID, season, teams, toss decision, toss winner, result, venue.
 Deliveries Data: Ball-by-ball details including runs, extras, and wickets.
 
-🔧 Data Preparation & Modeling
+🔧 **Data Preparation & Modeling**
 Cleaned & transformed raw data using Power Query.
 Removed duplicates, handled null values, and standardized team names.
 Built a data model connecting Matches and Deliveries tables.
@@ -34,25 +34,35 @@ Total Runs & Total Wickets
 Batting Strike Rate & Bowling Economy Rate
 Toss Win % vs Match Win %
 
-📊 Analysis & Visualizations
+📊 **Analysis & Visualizations**
 Key KPIs: Top Run Scorers (Orange Cap), Top Wicket Takers (Purple Cap), Toss Decision Analysis, Team Performance.
 Key Visuals:
 Bar & Column Charts: Player runs, bowler wickets
 Line Charts: Season-wise team & player trends
 Maps: Venue distribution
 Slicers: Season, team, venue
-(Insert dashboard images here)
 
-💡 Business Impact & Insights
+
+💡 **Business Impact & Insights**
 Teams & Coaches: Understand winning patterns & player performance.
 Analysts: Identify trends across seasons.
 Fans: Explore IPL history interactively.
 Management: Use data-driven insights for future strategies.
-📸 Screenshots / Demo
 
+📸 **Screenshots**
+Home Page
+<img width="1918" height="979" alt="Image" src="https://github.com/user-attachments/assets/82b35229-16e5-449e-a682-f17cbd4d0ac3" />
 
+Tournament Overview Page
+<img width="1917" height="973" alt="Image" src="https://github.com/user-attachments/assets/5185dd88-f2cb-4b2c-b224-978ac99c1074" />
 
-🚀 Installation & Usage
+Batting Analysis Page
+<img width="1917" height="979" alt="Image" src="https://github.com/user-attachments/assets/3387632c-dfab-42aa-ad79-f7ea188e9485" />
+
+Bowler Analysis Page
+<img width="1919" height="977" alt="Image" src="https://github.com/user-attachments/assets/c41f82cc-0032-4f62-b369-fa506e4672ce" />
+
+🚀** Installation & Usage**
 Clone/download the repository.
 Open the .pbix file in Power BI Desktop.
 Refresh data if required.
